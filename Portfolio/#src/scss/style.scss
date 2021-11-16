@@ -1,0 +1,53 @@
+@import "./mixins.scss";
+@import "./fonts.scss";
+/*==========================================*/
+
+$minwidth: 320px;
+$mw:994px;
+$md1:$mw+12;
+$md2:991.98;
+$md3:767.98;
+$md4:479.98;
+
+/*==========================================*/
+html, body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color:#070707;
+    background: #fff;
+    font-family: 'Gilroy';
+    font-weight: 500;
+}
+body._lock{
+    overflow: hidden;
+    @media (max-width: $md3+px) {
+    }
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style-type:none  
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+/*==========================================*/
+
+.page{
+    flex: 1 1 auto;
+    
+}
+
+@import "./generalcstyle.scss";
+/*==========================================*/
+@import "_header.scss";
+/*==========================================*/
+@import "_home.scss";
+@import "product.scss";
+/*==========================================*/
+@import "_footer.scss";

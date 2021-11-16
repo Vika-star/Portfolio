@@ -1,0 +1,228 @@
+.main-block {
+    padding: 37px 0 104px 0;
+    &__container {
+    }
+    &__info-blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 39px 0 50px 0;
+    }
+    &__info {
+        display: flex;
+        align-items:center;
+        @include mobile{
+            flex-direction: column;
+            text-align: left;
+        }
+    }
+    &__name {
+        font-family: 'Gilroy';
+        font-weight: 600;
+        font-size: 47px;
+        line-height: 125%;
+        padding: 0 297px 0 0;
+        
+        @include tablet {
+            padding: 0 200px 0 0;
+        }
+        @include small-tablet {
+            padding: 0 110px 0 0;
+        }
+        @include mobile {
+            padding: 0 0 30px 0;
+            
+        }
+    }
+    &__myself-info {
+        font-size: 18px;
+        line-height: calc(22px / 18px * 100%);
+    }
+    &__profession {
+        margin: 0 0 5px 0;
+    }
+    &__myself {
+    }
+    &__main-image {
+        img{
+            width: 100%;
+        }
+        @media only screen and (max-width: 480px) { 
+            img { 
+            width: 100%; 
+            } 
+        }
+            
+    }
+    &__language {
+        font-family: 'Gilroy';
+        font-size: 16px;
+        line-height: 20px;
+        color: #828282;
+
+
+    }
+}
+.language-block {
+    display: flex;
+    transform: rotate(-90deg);
+    height: 20px;
+    margin: 0 -25px 0 0;
+
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20px / 16px * 100%);
+    text-transform: uppercase;
+
+    color: #828282;
+    &__btn{
+        display: none;
+    }
+    &__eng {
+    }
+    &__line{
+        content: '|';
+        margin: 0 5px 0 2px;
+        border:1px solid #828282;
+        background-color: #828282;
+    }
+    &__eng:checked:checked{
+        color: red;
+    }
+
+    &__rus {
+        
+    }
+}
+input[type="radio"]:checked {
+    background-color: red;
+}
+.eng-block {
+    display: none;
+}
+.rus-block {
+    display: none;
+}
+._active-block{
+    display: flex;
+}
+
+
+.about-me {
+    background-color: #F6F6F6;
+    padding: 120.25px 0 107px 0;
+    &__container {
+        text-align: center;
+    }
+    &__title {
+        margin: 0 0 17.69px 0;
+    }
+    &__text {
+        margin: 0 239px 39px 239px;
+        &:last-child{
+            margin: 0;
+        }
+        @include tablet-vert{
+            margin: 0 200px 39px 200px;
+        }
+        @include tablet{
+            margin: 0 150px 39px 150px;
+        }
+        @include small-tablet{
+            margin: 0 100px 39px 100px;
+            font-size: 16px;
+        }
+        @include mobile{
+            margin: 0 30px 39px 30px;
+        }
+    }
+
+}
+
+.skills-box {
+    padding: 91px 0 110px 0;
+    &__container {
+        display: block;
+    }
+    &__content {
+        text-align: center;
+    }
+    &__title {
+        margin: 0 0 69px 0 ;
+    }
+    &__text {
+        margin: 0 0 83px 0 ;
+    }
+    &__swiper {
+    }
+}
+
+.swiper {
+    height: 266.27px;
+    &-wrapper {
+        display: flex;
+        // padding: 0 15px 0 15px 0;
+    }
+    &-slide {
+    }
+    &-slide__image {
+        text-align: center;
+    }
+    &-slide__content {
+        display: block;
+    }
+    &-slide__img {
+        margin: 0 0 23px 0;
+    }
+    &-slide__title {
+        font-family: 'Gilroy';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #828282;
+        margin: 0 0 40px 0;
+    }
+    &-slide__level {
+    }
+    &-pagination {
+    }
+    &-button-prev::after{
+        color: rgba(130, 130, 130, 0.7);
+        
+    }
+    &-button-next::after {
+        color: rgba(130, 130, 130, 0.7);
+    }
+}
+.swiper .swiper-pagination-bullet{
+    background-color: rgba(130, 130, 130, 0.7);   
+}
+
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding: 113px 0 96px 0;
+    &__container {
+        text-align: center;
+    }
+    &__title {
+        margin: 0 0 47px 0;
+    }
+    &__works {
+    }
+    &__work {
+        margin: 0 0 99px 0;
+    }
+    &__banner {
+        margin: 0 0 44.88px 0;
+        img{
+            max-width: 992px;
+            width: 100%;
+        }
+    }
+    &__name-benner {
+        text-decoration: underline;
+    }
+}

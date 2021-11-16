@@ -1,0 +1,285 @@
+
+.products-menu {
+    padding: 70px 0px 0px 0px;
+    flex: 1 1 auto;
+
+    &__container {
+        min-height: 90px;
+    }
+    &__title {
+        text-align: center;
+        margin: 0 0 80px 0;
+        @include tablet{
+            margin: 0 0 50px  0;
+        }
+    }
+    &__types {
+    }
+    &__body {
+    }
+    &__select{
+        display: none;
+        @include small-tablet{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100%;
+            padding: 10px 30px;
+            border: 2px solid #D23166;
+            box-sizing: border-box;
+            border-radius: 5px;
+            color: #D23166;
+            font-size: 18px;
+            font-weight: 500;
+            &:focus {
+                border: 2px solid #D23166;
+            }
+              option{
+                  background: rgba(210, 49, 102, 0.1);
+                  color: #D23166;
+                  padding: 20px 20px;
+                  font-size: 14px;
+            }
+        }
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        li{
+            margin: 0 87px 0 0;
+            @include small-desktop-min{
+                margin: 0 50px 0 0;
+            }
+            @include tablet{
+                margin: 0 23px 0 0;
+            }
+        }
+        @include small-tablet{
+            display: none;
+        }
+        *:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color:rgba(0, 0, 0, 0.6);
+        transition: color 0.6s ease 0s;
+        border-bottom: 6px solid #fff;
+        @media (min-width: $md2+px) {
+            &:hover{
+                padding-top: 3px;
+                border-bottom: 3px solid #D64374;
+                color: rgba(0, 0, 0, 1);
+
+            }
+        }
+        @include tablet{
+            font-size: 16px;
+        }
+    }   
+}
+
+// =====================================================================
+
+.products-blocks {
+    padding: 107px 0 204px 0;
+    @include tablet-vert{
+        padding: 97px 0 194px 0;
+    }
+    @include tablet{
+        padding: 97px 0 154px 0;
+    }
+    @include small-tablet{
+        padding: 97px 0 100px 0;
+    }
+    &__container {
+      
+    }
+    &__items {
+    }
+    &__row {
+        display: flex;
+        @include small-tablet{
+            flex-direction: column-reverse;
+            text-align: center;
+            align-items: center;
+        }
+        &:not(:first-child){
+            align-items: center;
+
+        }
+        &:not(:last-child){
+            margin: 0 0 37px 0;
+            @include tablet-vert{
+                margin: 0 0 25px 0 ;
+            }
+
+        }
+    
+    }
+    
+    &__content {
+        flex: 1 1 auto;
+        justify-content: end;
+        @include small-tablet{
+            justify-content: center;
+            align-items: center;
+        }
+        *:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &__product{ 
+    }
+}
+.row-left{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.content-left {
+    margin: 0 0 0 85px;
+    @include small-desktop-min{
+        margin: 0 0 0 60px;
+    }
+    @include tablet-vert{
+        margin: 0 0 0 35px;
+    }
+    @include tablet{
+        margin: 0 0 0 10px;
+    }
+    @include small-tablet{
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    &__title {
+        margin: 0 0 11px 0;
+        @include small-tablet{
+            margin: 20px 0 15px 0;
+            font-size: 30px;
+        }
+    }
+    &__text {
+        margin: 0 0 28px 0;
+        font-size: 16px;
+        max-width: 454px;
+        @include small-tablet{
+            min-width: none;
+            margin: 0 0 30px 0;
+        }
+    }
+    &__btn {
+    }
+    &__price{
+        @include small-tablet{
+            justify-content: center;
+        }
+    }
+}
+.content-right {
+    margin: 0 85px 0 auto;
+    text-align: right;
+    @include small-desktop-min{
+        margin: 0 65px 0 0 ;
+    }
+    @include tablet-vert{
+        margin: 0 50px 0 0;
+    }
+    @include small-tablet{
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+    &__title {
+        margin: 0 0 11px 0;
+        @include small-tablet{
+            margin: 20px 0 15px 0;
+            font-size: 30px;
+        }
+    }
+    &__text {
+        margin: 0 0 28px 0;
+        font-size: 16px;
+        max-width: 454px;
+        @include small-tablet{
+            min-width: none;
+            margin: 0 0 30px 0;
+        }
+    }
+    &__btn {
+    }
+    &__price{
+        display: flex;
+        justify-content: end;
+        @include small-tablet{
+            justify-content: center;
+        }
+    }
+}
+.price-content{
+    display: flex;
+    align-items:baseline;
+    margin: 0 auto 15px 0;
+    @include small-tablet{
+        margin: 0 0 10px 0;
+    }
+    &__new-price{
+        margin: 0 5px 0 0;
+        font-family: 'Hind Madurai';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 36px;
+        &::before{
+            content: "\0024";
+            margin-right: -5px
+        }
+    }
+    &__old-price{
+        font-family: 'Hind Madurai';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.7);
+        text-decoration: line-through;
+        &::before{
+            content: "\0024";
+            margin-right: -5px
+        }
+    }
+    
+}
+.product-img {
+    @include small-desktop-min{
+        width: 540px;
+        height: auto;
+    }
+    @include tablet-vert{
+        width: 500px;
+        height: auto;
+    }
+    @include tablet{
+        width: 450px;
+        height: auto;
+    }
+    @include small-tablet{
+        width: 400px;
+        height: auto;
+    }
+    @include mobile{
+        width: 300px;
+        height: auto;
+    }
+
+    @include mobile-s{
+        width: 273px;
+        height: auto;
+    }
+}
+

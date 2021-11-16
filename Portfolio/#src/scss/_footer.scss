@@ -1,0 +1,85 @@
+.footer {
+    padding: 114px 0 123px 0 ;
+    &__container {
+        text-align: center;
+    }
+    &__title {
+        margin: 0 0 23px 0;
+    }
+    &__text {
+        margin: 0 0 60px 0;
+    }
+    &__send-message{
+        @include small-tablet{
+            margin: 0 0 50px 0;
+        }
+    }
+    &__message{
+        font-size: 14px;
+        text-align: center;
+        background-color: #070707;
+        color: #fff;
+        padding: 13px 29px;
+        border-radius: 50px;
+    }
+    &__call{
+    }
+    &__number{
+        @extend .footer__message;
+    }
+
+    &__btn-contact {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 250px;
+        
+        margin: 0 0 85px 0;
+        
+        @include tablet-vert{
+            padding: 0 150px;
+        }
+        @include small-tablet{
+            display: block;
+            padding: 0;
+        }
+    }
+    &__mail {
+    }
+    &__mail-img {
+    }
+    &__phone {
+    }
+    &__phone-img {
+    }
+
+    &__additional-contacts {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 250px;
+        margin: 0 0 45px 0;
+        @include tablet{
+            padding: 0 200px;
+        }
+        @include small-tablet{
+            padding: 0 100px;
+        }
+        @include mobile{
+            padding: 0 30px;
+        }
+    }
+    &__telegram-img {
+    }
+    &__viber-img {
+    }
+    &__dribble-img {
+    }
+    &__like-me{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+    }
+}
+.img{
+    margin: 0 0 5px 0;
+}

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+    <div class="header__container _container">
+        <div class="header__menu menu">
+            <div class="menu__icon icon-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="menu__body ">
+                <ul class="menu__list">
+                    <li><a href="index.html" class="menu__link">Home</a></li>
+                    <li><a href="product.html" class="menu__link">About me</a></li>
+                    <li><a href="" class="menu__link">Skills</a></li>
+                    <li><a href="" class="menu__link">Portfolio</a></li>
+                    <li><a href="" class="menu__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+    <div class="wrapper">
+
+
+        <main class="page">
+            <section class="main-block">
+                <div class="main-block__container _container">
+                    <div class="main-block__info-blocks">
+                        <div class="main-block__info eng-block">
+                            <div class="main-block__name ">
+                                Victoria<br> Sevruk
+                            </div>
+                            <div class="main-block__myself-info">
+                                <div class="main-block__profession">
+                                    Frontend Developer
+                                </div>
+                                <div class="main-block__myself">
+                                    19 years old, Minsk
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-block__info rus-block">
+                            <div class="main-block__name ">
+                                Севрук<br> Виктория
+                            </div>
+                            <div class="main-block__myself-info">
+                                <div class="main-block__profession">
+                                    Frontend Developer
+                                </div>
+                                <div class="main-block__myself">
+                                    19 лет, Минск
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-block__language language-block">
+                            <input class="language-block__btn" type="radio" id="eng" name="langbtn" checked>
+                            <input class="language-block__btn" type="radio" id="rus" name="langbtn">
+                            <div>
+                                <span class="language-block__active-btn"><label class="language-block__eng eng-btn"
+                                        for="eng">eng</label></span>
+                                <span class="language-block__line"></span>
+                                <label class="language-block__rus rus-btn" for="rus">rus</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block__main-image">
+                        <img src="./img/main/01.svg" alt="main">
+                    </div>
+                </div>
+            </section>
+            <section class="about-me">
+                <div class="about-me__container _container">
+                    <div class="about-me__title title">
+                        About me
+                    </div>
+                    <div class="about-me__text text">
+                        Hi, I'm Victoria – Frontend Developer from Minsk.<br>
+                        I'm interested in design and everything connected with it.
+                    </div>
+                    <div class="about-me__text text">
+                        I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.
+                    </div>
+                    <div class="about-me__text text">
+
+                        Ready to implement excellent projects<br>
+                        with wonderful people.
+                    </div>
+                </div>
+            </section>
+            <section class="skills-box">
+                <div class="skills-box__container _container">
+                    <div class="skills-box__content">
+                        <div class="skills-box__title title">
+                            Skills
+                        </div>
+                        <div class="skills-box__text text">
+                            I work in such programs as
+                        </div>
+                    </div>
+                    <div class="skills-box__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide" data-hash="slide-1">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/1.svg" alt="photoshop">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Adobe<br>Photoshop
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide" data-hash="slide-2">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/2.svg" alt=" Adobe Illustrator">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Adobe<br>Illustrator
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide" data-hash="slide-3">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/3.svg" alt="Figma">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Figma
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide" data-hash="slide-4">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/4.svg" alt="HTML5">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            HTML5
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-5">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/5.svg" alt="JavaScript">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            JavaScript
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-6">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/6.svg" alt="Vue">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Vue
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-7">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/7.svg" alt="CSS3">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            CSS3
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-8">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/8.svg" alt="Sass">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Sass
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-9">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/9.svg" alt="Less">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Less
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-10">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/10.svg" alt="Gulp">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Gulp
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-11">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/11.svg" alt="Bootstrap">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Bootstrap
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-12">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/12.svg" alt="Git">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Git
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-hash="slide-13">
+                                <div class="swiper-slide__image">
+                                    <div class="swiper-slide__content">
+                                        <div class="swiper-slide__img">
+                                            <img src="./img/skills/13.svg" alt="SQL">
+                                        </div>
+                                        <div class="swiper-slide__title">
+                                            Sql
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide__level">
+                                        <img src="./img/skills/skill4.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- If we need scrollbar -->
+                        <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <div class="portfolio__container _container">
+                    <div class="portfolio__title title">
+                        Portfolio
+                    </div>
+                    <div class="portfolio__works">
+                        <div class="portfolio__work">
+                            <div class="portfolio__banner">
+                                <img src="./img/portfolio/crystal.svg" alt="crystal">
+                            </div>
+                            <div class="portfolio__name-benner text">
+                                <a href="https://vika-star.github.io/Crystals/" target="_blank">Online Crystal store - Crystals</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__work">
+                            <div class="portfolio__banner">
+                                <img src="./img/portfolio/polar.svg" alt="polar">
+                            </div>
+                            <div class="portfolio__name-benner text">
+                                <a href="https://github.com/Vika-star/Polar" target="_blank">Online Ice Cream shop - Polar</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__work">
+                            <div class="portfolio__banner">
+                                <img src="./img/portfolio/cosmeticshope.svg" alt="cosmetic">
+                            </div>
+                            <div class="portfolio__name-benner text">
+                                <a href="https://github.com/Vika-star/CosmeticShop" target="_blank">Online cosmetics store - CosmeTic</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__work">
+                            <div class="portfolio__banner">
+                                <img src="./img/portfolio/spacestore.svg" alt="spacestore">
+                            </div>
+                            <div class="portfolio__name-benner text">
+                                <a href="https://github.com/Vika-star/SpaceStore" target="_blank">Trading platform for the sale of gaming accounts - SpaceStore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer class="footer">
+    <div class="footer__container _container">
+        <div class="footer__title title">
+            Contacts
+        </div>
+        <div class="footer__text text">
+            Want to know more or just chat? <br>
+            You are welcome!
+        </div>
+        <div class="footer__btn-contact">
+            <div class="footer__send-message">
+                <a href="mailto:sevrukvika@gmail.com" class="footer__message">sevrukvika@gmail.com</a>
+            </div>
+            <div class="footer__call">
+                <a href="tel:+375291608684" class="footer__number">+375291608684</a>
+            </div>
+        </div>
+        
+        <div class="footer__additional-contacts">
+            <div class="footer__telegram-img">
+                <img src="./img/footer/telegram.svg" alt="telegram">
+            </div>
+            <div class="footer__viber-img">
+                <img src="./img/footer/viber.svg" alt="viber">
+            </div>
+            <div class="footer__dribble-img">
+                <img src="./img/footer/dribble.svg" alt="dribble">
+            </div>
+        </div>
+        <!-- <div class="footer__contacts">
+            <div class="footer__mail">
+                <div class="footer__mail-img img">
+                    <img src="./img/footer/mail.svg" alt="">
+                </div>
+                <a href="mailto:sevrukvika@gmail.com">sevrukvika@gmail.com</a>
+            </div>
+            <div class="footer__phone">
+                <div class="footer__phone-img img">
+                    <img src="./img/footer/phone.svg" alt="">
+                </div>
+                <a href="tel:+375291608684">+375291608684</a>
+            </div>
+        </div> -->
+        <div class="footer__like-me">
+            Like me on Dribble
+        </div>
+    </div>
+</footer>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script src="js/language.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+</body>
+
+</html>

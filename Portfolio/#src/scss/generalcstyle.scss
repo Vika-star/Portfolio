@@ -1,0 +1,64 @@
+
+._container {
+    max-width: $mw;
+    margin: 0 auto;
+    @include small-desktop-min{
+        padding: 0 30px;
+    }
+    @include small-tablet{
+        max-width: none;
+        padding: 0 25px;
+    }
+}
+// ===========================================================
+.title{
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 34px;
+    line-height: calc(42px / 34px *100%);
+}
+.text {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(22px / 18px * 100%);
+}
+.btn {
+    font-family: 'BasisGrotesquePro';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(20 / 20 *100%);
+    color: #FAFAFA;
+   text-transform: uppercase;
+    background: #000000;
+    border-radius: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 36px;
+
+    // @media (min-width:992px) {
+    //     &:hover{
+    //         background-color: #d00045;
+    //     }
+    // }
+}
+
+.product-img{
+    margin: auto 0;
+    // overflow: hidden;
+    img{
+        max-width: 100%;
+    }
+}
+.product-title{
+font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: calc(36 / 26 *100%);
+
+}
+.title{
+
+}

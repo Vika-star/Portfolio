@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
+    src: url("../fonts/Gilroy/Gilroy-Bold.woff2") format("woff2"), 
+    url("../fonts/Gilroy/Gilroy-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+    src: url("../fonts/Gilroy/Gilroy-Medium.woff2") format("woff2"), 
+    url("../fonts/Gilroy/Gilroy-Medium.woff") format("woff");
+    
+}
+@font-face {
+    font-family: 'ScopeOne';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ScopeOne/ScopeOne-Regular.ttf") format("truetype");
+    src: url("../fonts/ScopeOne/ScopeOne-Regular.woff2") format("woff2"), 
+    url("../fonts/ScopeOne/ScopeOne-Regular/ScopeOne-Regular.woff") format("woff");
+}
